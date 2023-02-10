@@ -1,9 +1,7 @@
 from rest_framework import viewsets, generics
-from rest_framework.response import Response
 
 from .models import Investment
 from .serializers import InvestmentSerializer
-from django.db import connection
 from django.http import HttpResponse, JsonResponse
 
 
